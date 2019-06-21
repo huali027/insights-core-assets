@@ -1631,6 +1631,11 @@
             "symbolic_name": "httpd_conf"
         },
         {
+            "file": "/etc/httpd/conf.d/*/()*.+\\.conf",
+            "pattern": [],
+            "symbolic_name": "httpd_conf"
+        },
+        {
             "file": "/etc/httpd/conf.modules.d/()*.+\\.conf",
             "pattern": [],
             "symbolic_name": "httpd_conf"
