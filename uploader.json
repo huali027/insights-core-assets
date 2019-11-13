@@ -880,6 +880,11 @@
             "symbolic_name": "hammer_task_list"
         },
         {
+            "command": "python -m insights.tools.cat --no-header satellite_enabled_features",
+            "pattern": [],
+            "symbolic_name": "satellite_enabled_features"
+        },
+        {
             "command": "/usr/sbin/ntpq -c 'rv 0 leap'",
             "pattern": [],
             "symbolic_name": "ntpq_leap"
