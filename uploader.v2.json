@@ -1154,6 +1154,11 @@
             "symbolic_name": "systemctl_mariadb"
         },
         {
+            "command": "/bin/systemctl show postgresql",
+            "pattern": [],
+            "symbolic_name": "systemctl_postgresql"
+        },
+        {
             "command": "/bin/systemctl show qpidd",
             "pattern": [],
             "symbolic_name": "systemctl_qpidd"
