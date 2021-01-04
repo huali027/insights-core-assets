@@ -1125,6 +1125,11 @@
             "symbolic_name": "ps_eo"
         },
         {
+            "command": "/usr/bin/openssl x509 -in /etc/puppetlabs/puppet/ssl/ca/ca_crt.pem -enddate -noout",
+            "pattern": [],
+            "symbolic_name": "puppet_ca_cert_expire_info"
+        },
+        {
             "command": "/sbin/pvs --nameprefixes --noheadings --separator='|' -a -o pv_all,vg_name --config=\"global{locking_type=0}\"",
             "pattern": [],
             "symbolic_name": "pvs_noheadings"
